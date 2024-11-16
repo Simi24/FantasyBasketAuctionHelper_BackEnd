@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  squad:
+    build:
+      context: ./interactiveAuction
+      dockerfile: Dockerfile
+    volumes:
+      - ./data:/app/data
+      - ./model:/app/model
+    ports:
+      - "5000:5000"
+    command: python main.py

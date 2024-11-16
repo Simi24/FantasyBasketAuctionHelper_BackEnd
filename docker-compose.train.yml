@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  train:
+    build:
+      context: ./trainModel
+      dockerfile: Dockerfile
+    volumes:
+      - ./data:/app/data
+      - ./trainModel:/app/trainModel
+      - ./model:/app/model
+    command: python main.py

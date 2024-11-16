@@ -1,0 +1,14 @@
+data/*
+!data/players_2024-25.csv
+
+model/*
+!model/prediction_next_season.csv
+
+parseData/
+
+proxyServer/
+
+trainModel/model.joblib
+
+docker-compose.parse.yml
+docker-compose.proxy.yml

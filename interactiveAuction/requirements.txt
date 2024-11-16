@@ -1,0 +1,7 @@
+pandas
+numpy
+scikit-learn
+tqdm
+pulp
+flask
+flask-cors

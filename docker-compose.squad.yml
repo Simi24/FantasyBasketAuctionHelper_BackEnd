@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  squad:
+    build:
+      context: ./optimizeSquad
+      dockerfile: Dockerfile
+    volumes:
+      - ./data:/app/data
+      - ./model:/app/model
+    command: python main.py
