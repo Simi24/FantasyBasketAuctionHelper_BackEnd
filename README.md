@@ -71,8 +71,6 @@ The project includes multiple Docker Compose configurations for different use ca
 - `docker-compose.squad.yml`: For batch generation of optimized teams
 - `docker-compose.train.yml`: For model training tasks
 
-[Prima parte del README rimane invariata fino alla sezione API Endpoints]
-
 ## 📡 API Endpoints
 
 The interactive server exposes the following REST endpoints:
